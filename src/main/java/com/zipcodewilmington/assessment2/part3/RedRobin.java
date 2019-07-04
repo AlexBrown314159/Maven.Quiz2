@@ -2,29 +2,33 @@ package com.zipcodewilmington.assessment2.part3;
 
 public class RedRobin extends Bird {
 
+    String move;
+    String color = "red";
+    int speed = 10;
+    String migrationMonth;
+
+
     public RedRobin() {
 
     }
 
     public String color() {
-        String n = "red";
-        return n;
+
+        return color;
     }
 
-    public int speed() {
-        int w = 10;
-        return w;
-    }
+    public int getSpeed() {
 
+        return speed;
+    }
 
     public String getMigrationMonth() {
 
-        return "April";
+        return migrationMonth;
     }
 
-
     public void setMigrationMonth(String mth) {
-           String migrationMonth = mth;
+           migrationMonth = mth;
 
     }
 

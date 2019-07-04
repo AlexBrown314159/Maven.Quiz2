@@ -1,20 +1,24 @@
 package com.zipcodewilmington.assessment2.part3;
 
-public class Horse {
+public class Horse implements Animal {
+
+        String move = "gallop";
+        String color = "brown";
+        int speed = 40;
 
     public Horse() {
     }
 
     public String move() {
-        return "gallop";
+        return move;
     }
 
     public String color() {
-        return "brown";
+        return color;
     }
 
     public int getSpeed() {
-        return 40;
+        return speed;
     }
 
 
